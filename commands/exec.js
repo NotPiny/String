@@ -3,3 +3,4 @@ const { Client, GatewayIntentBits, PermissionsBitField, ApplicationCommandPermis
 
 require('./exec/ping');
 require('./exec/suggest');
+require('./exec/punish');
