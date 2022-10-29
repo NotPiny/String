@@ -1,5 +1,6 @@
 const { Client, GatewayIntentBits, PermissionsBitField, ApplicationCommandPermissionType } = require('discord.js');
 require('dotenv/config');
+require('./events/load.js');
 const fs = require('fs');
 const commandFiles = fs.readdirSync('./commands/build/');
 const config = require('./config.json')
@@ -10,6 +11,13 @@ client.on('ready', () => {
   console.log('Load > Bot loaded');
   const testServer = client.guilds.cache.get(config.testServer);
   const commands = testServer?.commands;
+
+  setInterval(() => {
+    const status = config.arrays.status[Math.floor(Math.random() * config.arrays.status.length)];
+    client.user.setActivity({
+      name: status
+    })
+  }, 1000 * 15);
 
   commandFiles.forEach(file => {
     const commandName = file.replace(/.js/, '').toLowerCase();

@@ -6,5 +6,28 @@
     "roles": {
         "muted": "1035584841175019631",
         "staff": "1025370364420816936"
+    },
+    "arrays": {
+        "status": [
+            "Hello World!",
+            "Go follow me on Twitter! @NotPiny",
+            "https://twitter.com/NotPiny",
+            "https://github.com/NotPiny",
+            "https://github.com/NotPiny/String",
+            "https://bit.ly/DaalBotINV",
+            "https://github.com/NotPiny/DaalBot",
+            "Watching over {members} members!",
+            "https://bit.ly/PinyDis",
+            "https://bit.ly/m/Piny",
+            "https://bit.ly/PinyTwit",
+            "🖋️",
+            "Made with ❤️ by Piny",
+            "*Insert funny status here*",
+            "Welcome to the internet!",
+            "Who are you?",
+            "I'm DaalBot!",
+            "I'm a bot made by Piny! (and copilot)",
+            "🧵"
+        ]
     }
 }

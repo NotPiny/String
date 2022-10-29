@@ -1,0 +1,2 @@
+require('./interactionCreate');
+require('./messageCreate');
